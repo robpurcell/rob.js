@@ -70,14 +70,14 @@ module.exports = function(grunt) {
       dist: {                   // Target
         options: {              // Target options
           sassDir: 'sass',
-          cssDir: 'stylesheets',
+          cssDir: 'css',
           environment: 'production'
         }
       },
       dev: {                    // Another target
         options: {
           sassDir: 'sass',
-          cssDir: 'stylesheets'
+          cssDir: 'css'
         }
       }
     }
